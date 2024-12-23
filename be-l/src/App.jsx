@@ -16,7 +16,7 @@ function App() {
 
   return (
     <>
-      <Header/>
+      
       <Front/>
       <AboutUs/>
       <Faqs/>
@@ -24,8 +24,7 @@ function App() {
       <Stats/>
       <Team/>
       <ContactUs/>
-      <Footer/>
-      <ChooseUs/>
+      
     </>
   )
 }
