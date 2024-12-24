@@ -56,6 +56,7 @@ function Team() {
       {/* Content Section */}
       <div className="p-6 text-center">
         <h2 className="text-xl font-bold text-gray-800">{member.name}</h2>
+        <p className="text-gray-600">{member.role}</p>
         <p className="text-gray-600">{member.position}</p>
 
         {/* LinkedIn Button */}
