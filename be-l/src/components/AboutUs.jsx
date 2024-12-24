@@ -11,7 +11,7 @@ const AboutUs = () => {
         {/* Logo Section */}
         <div className="absolute -top-10 left-1/2 transform -translate-x-1/2 bg-white rounded-full shadow-md p-4">
           <img
-            src="" // Replace with your logo URL
+            src="https://byte-edu-learning-platform.netlify.app/assets/images/logo.jpg"
             alt="Logo"
             className="w-16 h-16 object-contain"
           />
