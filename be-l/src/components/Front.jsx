@@ -23,18 +23,20 @@ function Front() {
   }, [images.length]);
 
   return (
-    <div className='h-[700px] w-full '>
-        <img src={bg1} alt="" className='h-[700px]  w-full' />
-        <div class="absolute top-0 backdrop-blur-3xl w-full h-[700px] bg-gradient-to-b from-transparent to-blue-600 opacity-90"></div>
+    <div className='sm:h-[700px] h-[900px] w-full '>
+        <img src={bg1} alt="" className='sm:h-[700px] h-[900px]  w-full' />
+        <div class="absolute top-0 backdrop-blur-3xl w-full sm:h-[700px] h-[900px] bg-gradient-to-b from-transparent to-blue-600 opacity-90"></div>
 
-        <div className='h-[450px] w-[800px] absolute top-0 right-10 mt-28'>
-            <img src={images[index]} className='h-[450px] w-[800px] rounded-3xl' alt="" />
-            <div className='absolute bottom-10 text-5xl bg-opacity-40 backdrop-blur-md text-white bg-black p-5 font-bold'>
-            {texts[index]}
-            </div>
-        </div>
-        <div className='absolute bottom-10 w-[300px] left-5 p-5 text-white text-5xl font-bold'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div className='grid sm:grid-cols-10 absolute top-0'>
+          <div className='h-[450px] col-span-6 mx-6 mt-28'>
+              <img src={images[index]} className='h-[450px]  rounded-3xl' alt="" />
+          </div>
+          <div className='sm:mt-28 mx-6 h-[400px] col-span-4  text-5xl  text-white py-5 font-bold'>
+          {texts[index]}
+          </div>
+          {/* <div className='absolute col-span-4  w-[300px] p-5 text-white text-5xl font-bold'>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </div> */}
         </div>
     </div>
   )

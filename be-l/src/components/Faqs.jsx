@@ -28,8 +28,9 @@ function Faqs() {
       setExpandedIndex(expandedIndex === index ? null : index); // Toggle the expanded state
     };
   return (
-    <div className="max-w-6xl mt-20 mx-auto border-blue-600 border-[1px] shadow-xl shadow-blue-600  rounded-3xl p-6">
-     <div className="grid grid-cols-2 gap-8 py-5">
+    <div className="px-6">
+      <div className="max-w-6xl mt-20 mx-auto  border-blue-600 border-[1px] shadow-xl shadow-blue-600  rounded-3xl p-6">
+     <div className="grid sm:grid-cols-2 gap-8 py-5">
         <div>
       <ul className="space-y-4">
         {faqs.map((faq, index) => (
@@ -58,6 +59,7 @@ function Faqs() {
      <p className="py-4 text-gray-600  text-xl">ByteEdu is committed to empowering individuals with the skills and knowledge required for a successful career in software development and engineering. Join us and experience learning with a purpose, guided by experts and crafted for real-world impact</p>   
      </div>
      </div>
+    </div>
     </div>
   )
 }
