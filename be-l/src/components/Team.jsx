@@ -8,7 +8,7 @@ function Team() {
             image: "https://byte-edu-learning-platform.netlify.app/assets/images/member-02.jpg", // Replace with actual image URL
             name: "Manan Chawla",
             role: "Founder",
-            position: "Fullstack Developer",
+            position: "Ex-Salesforce Developer",
             linkedin: "https://www.linkedin.com/in/mananchawla26/", // Replace with actual LinkedIn URL
         },
         {
@@ -19,7 +19,7 @@ function Team() {
             linkedin: "https://www.linkedin.com/in/manita-rastogi8447/", // Replace with actual LinkedIn URL
         },
         {
-            image: "https://byte-edu-learning-platform.netlify.app/assets/images/member-04.jpg", // Replace with actual image URL
+            image: "src/images/member-04.jpg", // Replace with actual image URL
             name: "Asha Kanwar",
             role:"Co-Founder",
             position: "Frontend Developer",
@@ -29,6 +29,17 @@ function Team() {
 
   return (
     <>
+    <div className="team-page bg-gray-100 py-20">
+      {/* Header Section */}
+      <div className="container mx-auto px-8 lg:px-20 text-center">
+        <h1 className="text-5xl font-bold text-blue-600 mb-6">Our Team</h1>
+        <p className="mt-4 text-gray-800 text-lg leading-relaxed">
+          Meet our passionate and talented team members who work tirelessly to
+          make ByteEdu a success. Together, we strive to provide exceptional
+          learning experiences and innovative solutions for learners worldwide.
+        </p>
+      </div>
+      </div>
     <div className="mt-28 mx-40 grid sm:grid-cols-3 gap-10 justify-center items-center " >
   {teamMember.map((member, index) => (
     <div
