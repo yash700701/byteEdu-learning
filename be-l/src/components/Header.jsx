@@ -123,6 +123,7 @@ const Header = () => {
             px-2 py-1 rounded-lg
             `
             }
+            onClick={toggleMenu}
           >
             Home
           </NavLink>
@@ -133,6 +134,7 @@ const Header = () => {
             px-2 py-1 rounded-lg
             `
             }
+            onClick={toggleMenu}
           >
             About Us
           </NavLink>
@@ -143,6 +145,7 @@ const Header = () => {
             px-2 py-1 rounded-lg
             `
             }
+            onClick={toggleMenu}
           >
             Resources
           </NavLink>
@@ -153,6 +156,7 @@ const Header = () => {
             px-2 py-1 rounded-lg
             `
             }
+            onClick={toggleMenu}
           >
             Courses
           </NavLink>
@@ -163,6 +167,7 @@ const Header = () => {
             px-2 py-1 rounded-lg
             `
             }
+            onClick={toggleMenu}
           >
             Jobs
           </NavLink>
@@ -173,6 +178,7 @@ const Header = () => {
             px-2 py-1 rounded-lg
             `
             }
+            onClick={toggleMenu}
           >
             Team
           </NavLink>
@@ -183,6 +189,7 @@ const Header = () => {
             px-2 py-1 rounded-lg
             `
             }
+            onClick={toggleMenu}
           >
             Contacts
           </NavLink>

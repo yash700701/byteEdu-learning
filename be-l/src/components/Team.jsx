@@ -1,31 +1,35 @@
 import React from 'react'
+import linkedin from '../icons/linkedin.png'
 
 function Team() {
 
     const teamMember = [
         {
             image: "https://byte-edu-learning-platform.netlify.app/assets/images/member-02.jpg", // Replace with actual image URL
-            name: "Jane Doe",
-            position: "Frontend Developer",
-            linkedin: "https://www.linkedin.com/in/janedoe/", // Replace with actual LinkedIn URL
+            name: "Manan Chawla",
+            role: "Founder",
+            position: "Fullstack Developer",
+            linkedin: "https://www.linkedin.com/in/mananchawla26/", // Replace with actual LinkedIn URL
         },
         {
             image: "https://byte-edu-learning-platform.netlify.app/assets/images/member-03.jpg", // Replace with actual image URL
-            name: "Jane Doe",
-            position: "Frontend Developer",
-            linkedin: "https://www.linkedin.com/in/janedoe/", // Replace with actual LinkedIn URL
+            name: "Manita Rastogi",
+            role: "Co-Founder",
+            position: "Human Resources",
+            linkedin: "https://www.linkedin.com/in/manita-rastogi8447/", // Replace with actual LinkedIn URL
         },
         {
-            image: "https://byte-edu-learning-platform.netlify.app/assets/images/member-03.jpg", // Replace with actual image URL
-            name: "Jane Doe",
+            image: "https://byte-edu-learning-platform.netlify.app/assets/images/member-04.jpg", // Replace with actual image URL
+            name: "Asha Kanwar",
+            role:"Co-Founder",
             position: "Frontend Developer",
-            linkedin: "https://www.linkedin.com/in/janedoe/", // Replace with actual LinkedIn URL
+            linkedin: "https://www.linkedin.com/in/ashakanwar21/", // Replace with actual LinkedIn URL
         },
     ]
 
   return (
     <>
-    <div className="mt-20 grid sm:grid-cols-2 lg:grid-cols-3 px-20 gap-10  justify-center items-center">
+    <div className="mt-28 mx-40 grid sm:grid-cols-3 gap-10 justify-center items-center " >
   {teamMember.map((member, index) => (
     <div
       key={index}
@@ -48,9 +52,9 @@ function Team() {
           href={member.linkedin}
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-4 inline-block px-4 py-2 text-white bg-blue-500 rounded-lg hover:bg-blue-600 transition duration-300"
+          className="mt-4 inline-block px-4 py-2"
         >
-          View LinkedIn
+          <img src={linkedin} className='w-8' alt="" />
         </a>
       </div>
     </div>

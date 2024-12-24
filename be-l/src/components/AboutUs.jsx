@@ -8,7 +8,6 @@ const AboutUs = () => {
     
      <div className="relative mt-28 max-w-6xl mx-auto  rounded-3xl border-blue-600 border-[1px] shadow-xl shadow-blue-600 p-6 overflow-hidden">
         
-        
        
   
         {/* Card Content */}
