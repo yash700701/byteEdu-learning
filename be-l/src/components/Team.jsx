@@ -28,7 +28,7 @@ function Team() {
 
   return (
     <>
-    <div className="mt-20 mx-40 grid grid-cols-3 justify-center items-center" >
+    <div className="mt-20 mx-40 grid grid-cols-3 justify-center items-center bg-sky-500" >
   {teamMember.map((member, index) => (
     <div
       key={index}
