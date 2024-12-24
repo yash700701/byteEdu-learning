@@ -5,27 +5,30 @@ function Team() {
     const teamMember = [
         {
             image: "https://byte-edu-learning-platform.netlify.app/assets/images/member-02.jpg", // Replace with actual image URL
-            name: "Jane Doe",
-            position: "Frontend Developer",
-            linkedin: "https://www.linkedin.com/in/janedoe/", // Replace with actual LinkedIn URL
+            name: "Manan Chawla",
+            role: "Founder",
+            position: "Fullstack Developer",
+            linkedin: "https://www.linkedin.com/in/mananchawla26/", // Replace with actual LinkedIn URL
         },
         {
             image: "https://byte-edu-learning-platform.netlify.app/assets/images/member-03.jpg", // Replace with actual image URL
-            name: "Jane Doe",
-            position: "Frontend Developer",
-            linkedin: "https://www.linkedin.com/in/janedoe/", // Replace with actual LinkedIn URL
+            name: "Manita Rastogi",
+            role: "Co-Founder",
+            position: "Human Resources",
+            linkedin: "https://www.linkedin.com/in/manita-rastogi8447/", // Replace with actual LinkedIn URL
         },
         {
-            image: "https://byte-edu-learning-platform.netlify.app/assets/images/member-03.jpg", // Replace with actual image URL
-            name: "Jane Doe",
+            image: "https://byte-edu-learning-platform.netlify.app/assets/images/member-04.jpg", // Replace with actual image URL
+            name: "Asha Kanwar",
+            role:"Co-Founder",
             position: "Frontend Developer",
-            linkedin: "https://www.linkedin.com/in/janedoe/", // Replace with actual LinkedIn URL
+            linkedin: "https://www.linkedin.com/in/ashakanwar21/", // Replace with actual LinkedIn URL
         },
     ]
 
   return (
     <>
-    <div className="mt-20 mx-40 grid grid-cols-3 justify-center items-center">
+    <div className="mt-20 mx-40 grid grid-cols-3 justify-center items-center" >
   {teamMember.map((member, index) => (
     <div
       key={index}
