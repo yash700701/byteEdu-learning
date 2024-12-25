@@ -4,8 +4,8 @@ import { NavLink } from 'react-router-dom'
 
 function Footer() {
   return (
-    <footer className="bg-blue-900 text-white py-10 mt-20">
-      <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-10 gap-8">
+    <footer className="bg-blue-900 te    xt-white pt-10 pb-5 mt-20">
+      <div className="max-w-7xl mx-auto px-6 pb-5  grid md:grid-cols-10 gap-8">
         {/* Column 1: Logo and Text */}
         <div className='col-span-5'>
           <img src={logo} className='w-20 rounded-xl' alt="" />
@@ -60,12 +60,16 @@ function Footer() {
         <div className='col-span-3'>
           <h3 className="text-xl font-bold mb-4">Get In Touch</h3>
           <p className="text-gray-300 mb-2">
-            <strong className="text-white">Contact Us:</strong> +91 8447517306
+            <strong className="text-white">Contact Us:</strong> +91 7007571027
           </p>
           <p className="text-gray-300">
             <strong className="text-white">Email:</strong> skillbridge14@gmail.com
           </p>
         </div>
+      </div>
+      
+      <div className='text-center border-t-[1px] border-gray-400 pt-3 text-sm text-gray-400'>
+      Copyright © 2024 ByteEdu - All Rights Reserved
       </div>
     </footer>
   )
